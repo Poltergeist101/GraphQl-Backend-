@@ -1,0 +1,38 @@
+{
+  "name": "blog-graphql-backend",
+  "version": "1.0.0",
+  "description": "Blog App Backend using Node.Js, GraphQL &amp; MongoDB",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "debug": "node --inspect -r dotenv/config main.js",
+    "server": "node -r dotenv/config main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhinta/blog-graphql-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhinta/blog-graphql-backend/issues"
+  },
+  "homepage": "https://github.com/dhinta/blog-graphql-backend#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.12.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "gql-merge": "0.0.6",
+    "graphql": "^15.0.0",
+    "graphql-tools": "^4.0.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
