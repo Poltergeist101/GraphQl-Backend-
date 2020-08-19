@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Poltergeist101/GraphQl-Backend.git"
+    "url": "git+https://github.com/Poltergeist101/GraphQl-Backend-.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Poltergeist101/GraphQl-Backend/issues"
+    "url": "https://github.com/Poltergeist101/GraphQl-Backend-/issues"
   },
-  "homepage": "https://github.com/Poltergeist101/GraphQl-Backend#readme",
+  "homepage": "https://github.com/Poltergeist101/GraphQl-Backend-#readme",
   "dependencies": {
     "apollo-server-express": "^2.12.0",
     "body-parser": "^1.19.0",
